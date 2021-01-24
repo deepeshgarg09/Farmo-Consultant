@@ -1,0 +1,2 @@
+# Farmo-Consultata
+Artificial Intelligence (AI) based Crop Recommendation system is desired for providing suggestions for all the crops which may increase profitability of the farmers. The system may consider parameters of good agricultural practices. Obtain soil type, water requirement / availability, seasonal parameters (temperature ranges, humidity, etc.) along with location and advise the best crops suitable along with what is required (quality / quantity of seeds, fertilizers,etc), duration of cultivation, demand, cost of cultivation and expected revenues / profits.
