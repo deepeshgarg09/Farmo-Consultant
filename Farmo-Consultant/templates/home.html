@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+   
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-dark bg-dark">
+        <a class="navbar-brand" href="/">Farmo-Consultant</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample01"
+            aria-controls="navbarsExample01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample01">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">About</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Contact Us</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="https://www.linkedin.com/in/deepeshgarg09/">linkedin</a>
+                        <a class="dropdown-item" href="https://twitter.com/AwasthiRuhi">Twitter</a>
+
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-md-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+            </form>
+        </div>
+    </nav>
+    <main role="main">
+        <div class="jumbotron">
+            <div class="col-sm-8 mx-auto">
+                <h1>Welcome To The Farmo-Consultant</h1>
+                <br>
+                <p>We have successfully implemented an intelligent crop recommendation system, which can be
+                    easily used by farmers all over India. This system would assist the farmers in making an informed
+                    decision about which crop to grow depending on a variety of environmental and geographical factors.
+                    The proposed system takes into consideration the data related to soil, weather and past year
+                    production and suggests which are the best profitable crops which can be cultivated in the apropos
+                    environmental condition. As the system lists out all possible crops, it helps the farmer in decision
+                    making of which crop to cultivate. Also, this system takes into consideration the past production of
+                    data which will help the farmer get insight into the demand and the cost of various crops in market.
+                    As maximum types of crops will be covered under this system, farmer may get to know about the crop
+                    which may never have been cultivated.
+                </p>
+                <p>Go visit us at <a href="https://github.com/ruhiawasthi"> <br>ruhiawasthi.com</a> <br>
+                    <a href="https://github.com/deepeshgarg09"> deepeshgarg09.com</a>
+                </p>
+                <p>
+                    <a class="btn btn-primary" href="/docs/4.3/components/navbar/" role="button"> Contact Us
+                        &raquo;</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    </div>
+    <div class="container">
+
+
+    <form method='POST'>
+        {{ form.hidden_tag() }}
+        {{ form.loc.label }} {{form.loc}}
+        <br> <br>
+        {{ form.temperature.label}} {{form.temperature}}
+        <br> <br>
+        {{form.soil_type.label}}{{form.soil_type}}
+        <br> <br>
+        {{form.season.label}}{{form.season}}
+        <br> <br>
+        {{ form.submit() }}
+
+        
+        </div>
+    </form>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
+
+<!-- <div class="card-group">
+    <div class="card">
+      <img src="Far.jpg" class="card-img-top" alt="">
+      <div class="card-body">
+        <h5 class="card-title">Importance of an Indian Farmer</h5>
+        <p class="card-text">Farming is a remarkable part of the economy in India, as it adds about 17% of the absolute GDP. It gives employment to over 60% of the population.
+            Farmers are an important part of the existence of our various societies because they provide food and fibre which gives us nutrition and cloth.
+            Farming is an industry that relies on the natural environment and its careful and responsible use every day.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Challenges</h5>
+        <p class="card-text">A vast majority of the Indian farmers believe in depending on their intuition to decide which crop to sow in a particular season. They find comfort in simply following the ancestral farming patterns and norms without realizing the fact that crop output is circumstantial, depending heavily on the present-day weather and soil conditions. However, a single farmer cannot be expected to take into account all the innumerable factors that contribute to crop growth before reaching a consensus about which one to grow. A single misguided or imprudent decision by the farmer can have undesirable ramifications on both himself as well as the agricultural economy of the region.</p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+    <div class="card">
+      <img src="..." class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">More to come soon</h5>
+        <p class="card-text"></p>
+      </div>
+      <div class="card-footer">
+        <small class="text-muted">Last updated 3 mins ago</small>
+      </div>
+    </div>
+  </div> -->
