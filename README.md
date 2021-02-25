@@ -38,12 +38,15 @@ Deployment of an ML-model simply means the integration of the model into an exis
 
 # What's next for Farmo-Consultant
 
-Future Aspects :
+## Future Aspects :
 
-Alternate Crops Recommendation System:
+### Alternate Crops Recommendation System:
 
 Artificial Intelligence (AI) based Alternate Crop or Crop Rotation proposition is desired for providing suggestions for alternate crops which may increase profitability of the farmers by increasing the crop yield and maintaining the fertility of soil . 
 
-Farmer Chat-Bot:
+### Farmer Chat-Bot:
 
 Additionally, CHATBOTS can be introduced along with this system which is a conversational virtual assistant and provides farmers the better opportunity to obtain the desired information and to scale up with upcoming market trends and technologies in a user friendly manner.
+
+# License
+This project is under MIT License copyright [@Deepesh Garg](https://www.giithub.com/deepeshgarg09) and [@Ruhi Awasthi](https://www.github.com/ruhiawasthi)
