@@ -49,4 +49,4 @@ Artificial Intelligence (AI) based Alternate Crop or Crop Rotation proposition i
 Additionally, CHATBOTS can be introduced along with this system which is a conversational virtual assistant and provides farmers the better opportunity to obtain the desired information and to scale up with upcoming market trends and technologies in a user friendly manner.
 
 # License
-This project is under MIT License copyright [@Deepesh Garg](https://www.giithub.com/deepeshgarg09) and [@Ruhi Awasthi](https://www.github.com/ruhiawasthi)
+This project is under MIT License copyright [@Deepesh Garg](https://www.github.com/deepeshgarg09) and [@Ruhi Awasthi](https://www.github.com/ruhiawasthi)
