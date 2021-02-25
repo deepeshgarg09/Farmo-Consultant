@@ -32,17 +32,21 @@ The proposed system takes into consideration the data related to soil, weather a
 
 # How it is built
 
-Firstly we collected the dataset for our project then we started Data Pre-Processing : 
+#### Data Pre-Processing : 
 
 This is a two-step process. The first step is to remove the missing values which were represented by a dot (‘.’) in the original dataset. The presence of these missing values deteriorates the value of the data and subsequently hampers the performance of machine learning models. Hence, in order to deal with these missing values, we replace them with large negative values, which the trained model can easily treat as outliers. 
 The second step before the data is ready to be applied to machine learning algorithms is to generate class labels. Since we intend to use supervised learning, class labels are necessary. The original dataset did not come with labels, and hence we had to create them during the data preprocessing phase.
 
-Applyed Machine Learning Algorithms : Since in the proposed model, more than one class can be assigned to a single     instance, Multi-label classification (MLC) would be the ideal choice. Decision Tree, K Nearest Neighbor (K-NN), Random Forest and Naive Bayes are four machine learning algorithms that have in-built support for MLC. We also tried different Machine Learning Algorithms but we got some less accuracy only in the decision tree we got 80.65%, using Random forest we got (74.62),  KNN(71.12), Naive Bayes(65.02) of accuracy
+#### Applied Machine Learning Algorithms : 
+
+Since in the proposed model, more than one class can be assigned to a single     instance, Multi-label classification (MLC) would be the ideal choice. Decision Tree, K Nearest Neighbor (K-NN), Random Forest and Naive Bayes are four machine learning algorithms that have in-built support for MLC. We also tried different Machine Learning Algorithms but we got some less accuracy only in the decision tree we got 80.65%, using Random forest we got (74.62),  KNN(71.12), Naive Bayes(65.02) of accuracy
 
 
-Trained Model and Crop Recommendations : After applying the data to different machine learning algorithms, we obtain trained models of the crop recommendation system. The weights of this model can then be saved, and the farmers can easily avail crop recommendations by giving their farm’s Soil type, Rainfall, temperature, Ground water availability and season as the input to the system. 
+#### Trained Model and Crop Recommendations : 
 
-# Deployment 
+After applying the data to different machine learning algorithms, we obtain trained models of the crop recommendation system. The weights of this model can then be saved, and the farmers can easily avail crop recommendations by giving their farm’s Soil type, Rainfall, temperature, Ground water availability and season as the input to the system. 
+
+#### Deployment 
 
 Deployment of an ML-model simply means the integration of the model into an existing production environment which can take in an input and return an output that can be used in making practical business decisions. So we used flask and flask is a web framework.  flask provides tools, libraries, and technologies that allow us to build a web application.
 
