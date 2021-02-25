@@ -1,0 +1,142 @@
+/*Theme Color File*/
+
+
+a,
+.theme_color,
+.main-header .links-nav li a:hover,
+.main-header .links-nav li a:focus,
+.main-header .links-nav li a:active,
+.main-menu .navigation > li:hover > a,
+.main-menu .navigation > li.current > a,
+.main-menu .navigation > li.current-menu-item > a,
+.main-slider .slider-list li:after,
+.featured-block .inner-box .content .title,
+.featured-block .inner-box .content h2 a:hover,
+.featured-block-two .inner-box h3 a:hover,
+.featured-block-three .inner-box h3 a:hover,
+.product-section .filters .filter.active,
+.product-section .filters .filter:hover,
+.shop-item .inner-box .lower-box .price,
+.team-member .lower-content h4 a:hover,
+.team-member .lower-content .designation,
+.testimonail-style-one .inner-box .designation,
+.header-style-two .header-upper .info-block .inner .number,
+.about-section .prod-tabs .tabs-content .tab .content-column .content-inner .title,
+.services-block .inner-box h3 a:hover,
+.gallery-item .inner-box .image-box .overlay-box .content .icon,
+.news-block .inner-box .lower-content h3 a:hover,
+.news-block .inner-box .lower-content .read-more,
+.product-tabs .product-tab-btns .p-tab-btn.active-btn,
+.news-block.style-two .inner-box .lower-content .post-meta li .icon,
+.news-block-two .inner-box .content-column .inner-content .post-meta li span,
+.news-block-two .inner-box .image-column .image .overlay-box .icon,
+.testimonial-section.style-two .testimonail-style-one .inner-box .quote-icon,
+.page-title .bread-crumb li,
+.page-title .bread-crumb li a:hover,
+.page-title .bread-crumb li a.current,
+.product-details .basic-details .details-header .rating,
+.sidebar .search-box .form-group input:focus + button,
+.sidebar .search-box .form-group button:hover,
+.social-icon-three a:hover,
+.shop-single .product-details .prod-tabs .reviews-container .rating,
+.sidebar .popular-posts .post a, .sidebar .popular-posts .post a:hover,
+.sidebar .popular-posts .post-info,
+.news-block .inner-box .image .overlay-box .icon{
+	color:#3D9970;
+}
+
+/*Border Color*/
+
+.main-header .language .dropdown-menu,
+.main-menu .navigation > li > ul,
+.main-menu .navigation > li > ul > li:hover > a,
+.main-menu .navigation > li > ul > li > ul,
+.main-menu .navigation > li > ul > li  > ul > li > a:hover,
+.main-header .search-box-outer .dropdown-menu,
+.main-header .search-panel input:focus,
+.main-header .search-panel select:focus,
+.shop-item .inner-box:hover,
+.sidebar .search-box .form-group input:focus,
+.rangeslider-widget .noUi-handle,
+.page-title,
+.comment-form input:focus,
+.comment-form select:focus,
+.comment-form textarea:focus,
+.contact-form .form-group input[type="text"]:focus,
+.contact-form .form-group input[type="tel"]:focus,
+.contact-form .form-group input[type="email"]:focus,
+.contact-form .form-group textarea:focus{
+	border-color:#3D9970;
+}
+
+/*Background Color*/
+
+.main-menu .navigation > li > ul > li:hover > a,
+.main-header .search-box-btn,
+.main-menu .navigation > li > ul > li  > ul > li > a:hover,
+.main-header .sticky-header .main-menu .navigation > li:hover > a,
+.main-header .sticky-header .main-menu .navigation > li.current > a,
+.main-header .sticky-header .main-menu .navigation > li.current-menu-item > a,
+.scroll-to-top:hover,
+.cart-info-section,
+.shop-item .inner-box .lower-box .btn-style-one:hover,
+.subscribe-style-one .form-group input[type="submit"],
+.subscribe-style-one .form-group .subscribe-btn,
+.header-style-two .header-upper .cart-block .inner-box .icon .number,
+.offer-section .offer-inner,
+.news-block .inner-box .lower-content .post-date,
+.product-tabs .product-carousel .owl-dots .owl-dot:hover span,
+.product-tabs .product-carousel .owl-dots .owl-dot.active span,
+.testimonial-section.style-two .owl-dots .owl-dot span,
+.main-footer .footer-bottom,
+.team-single-section .team-detail .content-column .inner-box .title:after,
+.skills-box h3:before,
+.team-single-section .team-title:after,
+.styled-pagination li a:hover, .styled-pagination li a.active,
+.drop-list-one .dropdown-menu li:hover > a,
+.rangeslider-widget .noUi-connect,
+.sidebar .sidebar-widget .sidebar-title h3:before,
+.related-products h2:after,
+.sidebar .popular-tags a:hover,
+.contact-form-section .column h2:after,
+.contact-info-detail li .icon{
+	background-color:#3D9970;
+}
+
+/*RGBA Color*/
+
+.video-box:hover .overlay-box,
+.contact-info-detail li .icon:before{
+	background-color:rgba(61,153,112,0.60);
+}
+
+/*BG Image*/
+.main-footer .footer-bottom:before {
+    background-image: url(../../images/background/footer-img-olive.png);
+}
+
+@media only screen and (max-width: 767px){
+	
+	.main-menu .navbar-header .navbar-toggle{
+		border-color:#3D9970;
+	}
+	
+	.main-menu .navbar-header .navbar-toggle,
+	.main-menu .navbar-collapse > .navigation,
+	.main-menu .navbar-collapse > .navigation > li > ul,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul,
+	.main-menu .navbar-collapse > .navigation > li > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li > a,
+	.main-menu .navbar-collapse > .navigation > li > a:hover,
+	.main-menu .navbar-collapse > .navigation > li > a:active,
+	.main-menu .navbar-collapse > .navigation > li > a:focus,
+	.main-menu .navbar-collapse > .navigation > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li > ul > li > ul > li:hover > a,
+	.main-menu .navbar-collapse > .navigation > li.current > a,
+	.main-menu .navbar-collapse > .navigation > li.current-menu-item > a{
+		background-color:#3D9970;
+	}
+	
+}
