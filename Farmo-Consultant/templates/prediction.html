@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+
+<!-- Mirrored from t.commonsupport.xyz/rotterdam/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Jan 2021 12:09:46 GMT -->
+<head>
+<meta charset="utf-8">
+<title>Farmo-Consultant</title>
+<!-- Stylesheets -->
+<link href="{{ url_for('static',filename='css/bootstrap.css') }}" rel="stylesheet">
+<link href="{{ url_for('static',filename='plugins/revolution/css/settings.css') }}" rel="stylesheet" type="text/css"><!-- REVOLUTION SETTINGS STYLES -->
+<link href="{{ url_for('static',filename='plugins/revolution/css/layers.css') }}" rel="stylesheet" type="text/css"><!-- REVOLUTION LAYERS STYLES -->
+<link href="{{ url_for('static',filename='plugins/revolution/css/navigation.css') }}" rel="stylesheet" type="text/css"><!-- REVOLUTION NAVIGATION STYLES -->
+<link href="{{ url_for('static',filename='css/style.css') }}" rel="stylesheet">
+<link href="{{ url_for('static',filename='css/responsive.css') }}" rel="stylesheet">
+
+<!--Color Switcher Mockup-->
+<link href="{{ url_for('static',filename='css/color-switcher-design.css') }}" rel="stylesheet">
+
+<!--Color Themes-->
+<link id="theme-color-file" href="{{ url_for('static',filename='css/color-themes/default-theme.css') }}" rel="stylesheet">
+
+<!--Favicon-->
+<link rel="shortcut icon" href="{{ url_for('static',filename='images/favicon.ico') }}" type="{{ url_for('static',filename='image/x-icon') }}">
+<link rel="icon" href="{{ url_for('static',filename='images/favicon.ico') }}" type="{{ url_for('static',filename='image/x-icon') }}">
+<!-- Responsive -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+<!--[if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="js/respond.js"></script><![endif]-->
+</head>
+
+<body>
+    <div class="page-wrapper" style="background-image: url('static/images/background/4.jpg');" >
+        <div class="container">
+    
+    
+        <div class="inner-content" style="background-color: rgb(255, 255, 255); opacity: 0.85;" >
+           
+            
+           
+            <section class="choose-section">
+                
+                <div class="auto-container">
+                
+                    
+
+
+                    <!--Image Column-->
+                    <div class="image-column">
+                        <figure class="image">
+                            <img src="{{ url_for('static',filename='images/resource/choose-inner.png') }}" alt="" />
+                        </figure>
+                        <!--Title Boxed-->
+                        <div class="title-boxed">
+                            <div class="sec-title centered">
+                                <div class="icon-box"></div>
+                                <div class="title">Most Suitable Crop to Grow : </div>
+                                <h2>{{results}}</h2>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row clearfix">
+                    
+                        <!--Column-->
+                        <div class="column pull-left col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                        
+                            <!--Featured Block Two-->
+                            <div class="featured-block-two">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <span class="icon flaticon-broccoli"></span>
+                                    </div>
+                                    <h3><a href="services.html">Fertilisers required</a></h3>
+                                    <h4>{{f}}<h4>
+                                </div>
+                            </div>
+                            <br>
+                            <!--Featured Block Two-->
+                            <div class="featured-block-two">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <span class="icon flaticon-apple-1"></span>
+                                    </div>
+                                    <h3><a href="services.html">Duration of Cultivation</a></h3>
+                                    
+                                    <h4>{{d}} Days</h4>
+                                </div>
+                            </div>
+                            <br>
+                            
+                            <!--Featured Block Two-->
+                            <div class="featured-block-two">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <span class="icon flaticon-food"></span>
+                                    </div>
+                                    <h3><a href="services.html">Cost of Cultivation</a></h3>
+                                    <h4>Rs. {{c}}</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                        <!--Column-->
+                        <div class="column pull-right col-lg-4 col-md-6 col-sm-6 col-xs-12">
+                            
+                            <!--Featured Block Three-->
+                            <div class="featured-block-three">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <span class="icon flaticon-bus-1"></span>
+                                    </div>
+                                    <h3><a href="services.html">Expected Revenues</a></h3>
+                                    <h4>Rs. {{e}}</h4>
+                                </div>
+                            </div>
+                            <br>
+                            <!--Featured Block Three-->
+                            <div class="featured-block-three">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <span class="icon flaticon-smartphone-1"></span>
+                                    </div>
+                                    <h3><a href="services.html">Quantity of Seeds</a></h3>
+                                    <h4>{{s}}</h4>
+                                </div>
+                            </div>
+                            <br>
+                            <!--Featured Block Three-->
+                            <div class="featured-block-three">
+                                <div class="inner-box">
+                                    <div class="icon-box">
+                                        <span class="icon flaticon-farmer-1"></span>
+                                    </div>
+                                    <h3><a href="services.html">Crop(s) for mixed cropping</a></h3>
+                                    <h4>{{m}}</h4>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </section>
+    
+            <!--Choose Section-->
+        </div>
+    </div>
+    <!--End Choose Section-->
+<footer class="main-footer">
+    <!--Widgets Section-->
+    <div class="widgets-section">
+        <div class="auto-container">
+            <div class="row clearfix">
+            <!--Big Column-->
+            <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                <div class="row clearfix">
+                
+                    <!--Footer Column-->
+                    <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                        <!--About Widget-->
+                        
+                    </div>
+                    
+                    <!--Footer Column-->
+                    <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                        <!--Info Widget-->
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+            <!--Big Column-->
+            <div class="big-column col-md-6 col-sm-12 col-xs-12">
+                <div class="row clearfix">
+                
+                    <!--Footer Column-->
+                    <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                        
+                    </div>
+                    
+                    <!--Footer Column-->
+                    <div class="footer-column col-md-6 col-sm-6 col-xs-12">
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--Footer Bottom-->
+    <div class="footer-bottom">
+        <div class="auto-container">
+            <div class="logo">
+                <a href="index-2.html"><img src="{{ url_for('static',filename='images/footer-logo.png') }}" alt="" /></a>
+            </div>
+            
+            <div class="copyright">Copyright &copy; 2021 Farmo-Consultant. All rights reserved.</div>
+        </div>
+    </div>
+    	
+        
+</footer>        
+
+    
+      
+</div>
+
+<!-- /.End Of Color Palate -->
+
+<script src="{{url_for('static', filename='js/jquery.js')}}"></script>
+<!--Revolution Slider-->
+<script src="{{url_for('static', filename='plugins/revolution/js/jquery.themepunch.revolution.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/revolution/js/jquery.themepunch.tools.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/revolution/js/extensions/revolution.extension.actions.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/revolution/js/extensions/revolution.extension.carousel.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/revolution/js/extensions/revolution.extension.kenburn.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/revolution/js/extensions/revolution.extension.layeranimation.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/revolution/js/extensions/revolution.extension.migration.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/revolution/js/extensions/revolution.extension.navigation.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/revolution/js/extensions/revolution.extension.parallax.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/revolution/js/extensions/revolution.extension.slideanims.min.js')}}"></script>
+<script src="{{url_for('static', filename='plugins/revolution/js/extensions/revolution.extension.video.min.js')}}"></script>
+
+<script src="{{url_for('static', filename='js/bootstrap.min.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.fancybox.pack.js')}}"></script>
+<script src="{{url_for('static', filename='js/jquery.fancybox-media.js')}}"></script>
+<script src="{{url_for('static', filename='js/owl.js')}}"></script>
+<script src="{{url_for('static', filename='js/appear.js')}}"></script>
+<script src="{{url_for('static', filename='js/wow.js')}}"></script>
+<script src="{{url_for('static', filename='js/mixitup.js')}}"></script>
+<script src="{{url_for('static', filename='js/main-slider-script.js')}}"></script>
+<script src="{{url_for('static', filename='js/script.js')}}"></script>
+
+<!--Color Switcher-->   
+<script src="{{url_for('static', filename='js/color-settings.js')}}"></script>
+</body>
+
+<!-- Mirrored from t.commonsupport.xyz/rotterdam/ by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 12 Jan 2021 12:15:51 GMT -->
+</html>
