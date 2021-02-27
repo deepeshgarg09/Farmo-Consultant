@@ -2,7 +2,7 @@
 
 ![Home page_1](https://github.com/ruhiawasthi/Farmo-Consultant/blob/main/farmo/Farmo_1.png)
 
-Farmers have always been the back-bone of our country & the NDA Government is striving to strengthen this back-bone of the country through innovative and solid measures.
+Farmers have always been the back-bone of our country & the Government is striving to strengthen this back-bone of the country through innovative and solid measures.
 
 As we know that Agriculture is a major contributor to the economy. The mainstream Indian population depends either explicitly or implicitly on agriculture for their livelihood. It is, thus, irrefutable that agriculture plays a vital role in the country. A vast majority of the Indian farmers believe in depending on their intuition to decide which crop to sow in a particular season.
 
